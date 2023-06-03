@@ -1,0 +1,183 @@
+* {
+    color: #ffffff;
+}
+  
+body {
+    background-color: black;
+    font-family: Helvetica;
+    margin: 0;
+    background: url(wonderful.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+  
+navbar {
+    color: #ffffff;
+    font-size: 17px;
+    padding: 20px;
+    margin: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+}
+  
+navbar > h1 {
+    font-size: 26px;
+    margin: 0;
+}
+  
+.nav-item {
+    margin-inline: 10px;
+    display: inline-block;
+}
+  
+navbar > .nav-item > .cart {
+    color: #ffffff;
+    text-decoration: none;
+    /* background-image: url("./imgs/cart.svg"); */
+    width: 22px;
+    height: 22px;
+    padding-top: 100px;
+}
+
+.wrapper {
+    margin-inline: 350px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+  
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+/*BAGIANKU*/
+
+.wrapper > .content{
+    width: 100%;
+    height: 100%;
+    background-color: #2b2a2a;
+    margin-top: -20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.wrapper > .content > .article > header {
+    text-align: left;
+    align-items: baseline;
+}
+
+.wrapper > .content > .article > img {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper > .content > .article > .article-text {
+    padding-top: 15px;
+    text-align: left;
+    align-items: baseline;
+}
+
+.wrapper > .content > .article > .article-text > span {
+    color: blue;
+}
+
+.wrapper > .content > .page-number {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pre-footer {
+    background-color: #1b1b1b;
+    margin-top: -20px;
+  }
+  
+  .pre-footer > .wrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+    padding: 40px 0 40px 0;
+  }
+  
+  .pre-footer > .wrapper > * {
+    color: white;
+  }
+  
+  .pre-footer > .wrapper > div {
+    margin-inline: 0;
+    color: white;
+    width: 400px;
+    text-align: left;
+  }
+  
+  .pre-footer > .wrapper > div > * {
+    color: white;
+  }
+  
+  .pre-footer > .wrapper > div > h1 {
+    margin-top: 0;
+    color: white;
+    font-size: 22px;
+  }
+  
+  .pre-footer > .wrapper > div > p {
+    color: #c0c0c0;
+    font-size: 12px;
+    text-align: left;
+  }
+  
+  .footer-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-list > li {
+    color: silver;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,207 @@
+* {
+    color: #ffffff;
+}
+  
+body {
+    background-color: black;
+    font-family: Helvetica;
+    margin: 0;
+  }
+  
+  navbar {
+    color: #ffffff;
+    font-size: 17px;
+    padding: 20px;
+    margin: 0;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  navbar > h1 {
+    font-size: 26px;
+    margin: 0;
+  }
+  
+  .nav-item {
+    margin-inline: 10px;
+    display: inline-block;
+  }
+  
+  navbar > .nav-item > .cart {
+    color: #ffffff;
+    text-decoration: none;
+    /* background-image: url("./imgs/cart.svg"); */
+    width: 22px;
+    height: 22px;
+    padding-top: 100px;
+  }
+
+/* Bagianku */
+/* Bagianku */
+/* Bagianku */
+/* Bagianku */
+/* Bagianku */
+/* Bagianku */
+.wrapper {
+    margin-inline: 350px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+
+.content-container{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 18% 64% 18%;
+}
+
+.left-content{
+    background-color: #303030;
+    align-items: center;
+}
+
+.right-content{
+    background-color: #303030;
+}
+
+.left-content{
+    .header {
+        text-align: center;
+        justify-content: center;
+        grid-column: auto;
+    }   
+
+    .header > h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .category {
+        background-color: #303030;
+        display: grid;
+        grid-template-columns: 49% 2% 49%;
+        grid-template-rows: auto;
+    }
+
+    .category > .time {
+        background-color: #383838;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .category > .popularity {
+        background-color: #383838;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }   
+
+    .main {
+        display: block;
+    }
+
+    .main{
+        .article {
+            display: inline-flex;
+            margin: 12px;
+            
+            .thumbnail{
+                width: 33%;
+                height: 33%;
+            }
+            
+            .text{
+                margin-left: 15px;
+            }
+
+        }    
+    }
+}
+
+.left-content > .main > .article > .text > h2 {
+    font-size: medium;
+}
+
+.left-content > .main > .article > .text > p {
+    font-size: small;
+}
+
+.middle-content {
+    background-color: gray;
+    height: auto;
+
+
+    .header > h1 {
+        font-size: 36px;
+        margin-left:20px ;
+    }
+
+    .article-large {
+        margin-left: 15px;
+    }
+
+    .article-large > img {
+        width: 98%;
+        height: 100%;
+    }
+
+    .article-large > p {
+        margin-top: 10px ;
+    }   
+
+    .article-grid {
+        display:grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .article-grid > .article {
+        margin-left: 30px;
+        margin-top: 5px ;
+        padding-bottom: 10px;
+    }
+}
+
+.right-content{
+    display: inline-block;
+    
+    .search {
+        margin: 30px;
+    }
+
+    .header{
+        margin-left: 30px;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    .article {
+        .thumbnail {
+            height: 90%;
+            width: 90%;
+            margin-left: 18px;
+            padding-bottom: 10px;
+        }
+
+        .category {
+            color: yellow;
+            margin-left: 15px;
+        }
+
+        .title{
+            margin-left: 15px;
+            margin-top: 3px;
+        }
+    }
+
+
+}

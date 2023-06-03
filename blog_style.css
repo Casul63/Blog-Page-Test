@@ -6,6 +6,9 @@ body {
     background-color: black;
     font-family: Helvetica;
     margin: 0;
+    background: url(wonderful.jpg) no-repeat fixed;
+    background-position: center;
+    background-size: 100% 100%;
   }
   
   navbar {
@@ -39,6 +42,19 @@ body {
     padding-top: 100px;
   }
 
+
+.wrapper {
+  margin-inline: 350px;
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 16px;
+  text-align: center;
+  margin-top: -20px;
+}
+
 /* Bagianku */
 /* Bagianku */
 /* Bagianku */
@@ -46,151 +62,151 @@ body {
 /* Bagianku */
 /* Bagianku */
 
-.content-container{
+
+.recommended {
+  padding-inline: 80px;
+  padding-top: -20px;
+}
+
+.category-grid {
     display: grid;
+    grid-template-columns: 2% 47% 2% 47% 2%;
     grid-template-rows: auto;
-    grid-template-columns: 18% 64% 18%;
+    .category1{
+        background-color: gray;
+    }
+    .category2{
+        background-color: gray;
+    }
 }
 
-.left-content{
-    background-color: #303030;
-    align-items: center;
-}
+.recommendation {
+  background-color: #353535;
+  width: 102.5%;
+  height: 100%;
+  .content{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 
-.right-content{
-    background-color: #303030;
-}
-
-.left-content{
-    .header {
+    .article{
+      padding-top: 30px;
+      padding-left: 10px;
+      padding: -5px;
+      .thumb{
+        width: 90%;
+        height: 60%;
+      }
+      .title{
         text-align: center;
-        justify-content: center;
-        grid-column: auto;
-    }   
-
-    .header > h2 {
-        font-size: 16px;
-        text-align: center;
+      }
+      .teaser{
+        text-align: justify;
+      }
     }
-
-    .category {
-        background-color: #303030;
-        display: grid;
-        grid-template-columns: 49% 2% 49%;
-        grid-template-rows: auto;
-    }
-
-    .category > .time {
-        background-color: #383838;
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-
-    .category > .popularity {
-        background-color: #383838;
-        text-align: center;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }   
-
-    .main {
-        display: block;
-    }
-
-    .main{
-        .article {
-            display: inline-flex;
-            margin: 12px;
-            
-            .thumbnail{
-                width: 33%;
-                height: 33%;
-            }
-            
-            .text{
-                margin-left: 15px;
-            }
-
-        }    
-    }
+  }
 }
 
-.left-content > .main > .article > .text > h2 {
-    font-size: medium;
+.recommendation > .content > .article {
+  font-size: small;
 }
 
-.left-content > .main > .article > .text > p {
-    font-size: small;
+.wrapper > .content{
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
-.middle-content {
-    background-color: gray;
-    height: auto;
-
-
-    .header > h1 {
-        font-size: 36px;
-        margin-left:20px ;
-    }
-
-    .article-large {
-        margin-left: 15px;
-    }
-
-    .article-large > img {
-        width: 98%;
-        height: 100%;
-    }
-
-    .article-large > p {
-        margin-top: 10px ;
-    }   
-
-    .article-grid {
-        display:grid;
-        grid-template-rows: repeat(2, 1fr);
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .article-grid > .article {
-        margin-left: 30px;
-        margin-top: 5px ;
-        padding-bottom: 10px;
-    }
+.wrapper > .content > .article > header {
+  text-align: left;
+  align-items: baseline;
 }
 
-.right-content{
-    display: inline-block;
-    
-    .search {
-        margin: 30px;
-    }
+.wrapper > .content > .article > img {
+  width: 100%;
+  height: 100%;
+}
 
-    .header{
-        margin-left: 30px;
-        font-size: 30px;
-        padding-bottom: 20px;
-    }
+.wrapper > .content > .article > .article-text {
+  padding-top: 15px;
+  text-align: left;
+  align-items: baseline;
+}
 
-    .article {
-        .thumbnail {
-            height: 90%;
-            width: 90%;
-            margin-left: 18px;
-            padding-bottom: 10px;
-        }
+.wrapper > .content > .article > .article-text > span {
+  color: blue;
+}
 
-        .category {
-            color: yellow;
-            margin-left: 15px;
-        }
-
-        .title{
-            margin-left: 15px;
-            margin-top: 3px;
-        }
-    }
+.wrapper > .content > .page-number {
+color: blue;
+padding-bottom: 20px;
+}
 
 
+
+
+
+
+
+
+
+
+
+
+
+.pre-footer {
+  background-color: #1b1b1b;
+  
+}
+
+.pre-footer > .wrapper {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  align-items: flex-start;
+  padding: 40px 0 40px 0;
+  margin-bottom: -20px;
+}
+
+.pre-footer > .wrapper > * {
+  color: white;
+}
+
+.pre-footer > .wrapper > div {
+  margin-inline: 0;
+  color: white;
+  width: 400px;
+  text-align: left;
+}
+
+.pre-footer > .wrapper > div > * {
+  color: white;
+}
+
+.pre-footer > .wrapper > div > h1 {
+  margin-top: 0;
+  color: white;
+  font-size: 22px;
+}
+
+.pre-footer > .wrapper > div > p {
+  color: #c0c0c0;
+  font-size: 12px;
+  text-align: left;
+}
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-list > li {
+  color: silver;
+  line-height: 40px;
+  font-size: 16px;
+  font-weight: bold;
 }
